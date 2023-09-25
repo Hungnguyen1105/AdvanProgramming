@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="C02Lab-inheritance\**" />
+    <Compile Remove="C02Lab_polymorphism\**" />
+    <Compile Remove="C03Lab_Abtract\**" />
+    <Compile Remove="C03Lab_Interface\**" />
+    <Compile Remove="C03_Lab_AbstractandInterface\**" />
+    <Compile Remove="C04-Lab01\**" />
+    <EmbeddedResource Remove="C02Lab-inheritance\**" />
+    <EmbeddedResource Remove="C02Lab_polymorphism\**" />
+    <EmbeddedResource Remove="C03Lab_Abtract\**" />
+    <EmbeddedResource Remove="C03Lab_Interface\**" />
+    <EmbeddedResource Remove="C03_Lab_AbstractandInterface\**" />
+    <EmbeddedResource Remove="C04-Lab01\**" />
+    <None Remove="C02Lab-inheritance\**" />
+    <None Remove="C02Lab_polymorphism\**" />
+    <None Remove="C03Lab_Abtract\**" />
+    <None Remove="C03Lab_Interface\**" />
+    <None Remove="C03_Lab_AbstractandInterface\**" />
+    <None Remove="C04-Lab01\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Author.cs" />
+    <Compile Remove="Book.cs" />
+    <Compile Remove="Book2.cs" />
+    <Compile Remove="Circle1.cs" />
+    <Compile Remove="Employee.cs" />
+    <Compile Remove="TestAuthor.cs" />
+    <Compile Remove="TestBook.cs" />
+    <Compile Remove="TestBook2.cs" />
+    <Compile Remove="TestCirCle1.cs" />
+    <Compile Remove="TestEmployee.cs" />
+  </ItemGroup>
+
+</Project>
