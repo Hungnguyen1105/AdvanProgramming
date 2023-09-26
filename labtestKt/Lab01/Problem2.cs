@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C01AP.AdvanProgramming.labtestKt
+namespace C01AP.AdvanProgramming.labtestKt.Lab01
 {
     public class Problem2
     {
