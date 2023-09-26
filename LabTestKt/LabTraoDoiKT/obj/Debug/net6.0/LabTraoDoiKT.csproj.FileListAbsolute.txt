@@ -1,0 +1,14 @@
+D:\OOPAdvance\LabTraoDoiKT\LabTraoDoiKT\bin\Debug\net6.0\LabTraoDoiKT.exe
+D:\OOPAdvance\LabTraoDoiKT\LabTraoDoiKT\bin\Debug\net6.0\LabTraoDoiKT.deps.json
+D:\OOPAdvance\LabTraoDoiKT\LabTraoDoiKT\bin\Debug\net6.0\LabTraoDoiKT.runtimeconfig.json
+D:\OOPAdvance\LabTraoDoiKT\LabTraoDoiKT\bin\Debug\net6.0\LabTraoDoiKT.dll
+D:\OOPAdvance\LabTraoDoiKT\LabTraoDoiKT\bin\Debug\net6.0\LabTraoDoiKT.pdb
+D:\OOPAdvance\LabTraoDoiKT\LabTraoDoiKT\obj\Debug\net6.0\LabTraoDoiKT.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOPAdvance\LabTraoDoiKT\LabTraoDoiKT\obj\Debug\net6.0\LabTraoDoiKT.AssemblyInfoInputs.cache
+D:\OOPAdvance\LabTraoDoiKT\LabTraoDoiKT\obj\Debug\net6.0\LabTraoDoiKT.AssemblyInfo.cs
+D:\OOPAdvance\LabTraoDoiKT\LabTraoDoiKT\obj\Debug\net6.0\LabTraoDoiKT.csproj.CoreCompileInputs.cache
+D:\OOPAdvance\LabTraoDoiKT\LabTraoDoiKT\obj\Debug\net6.0\LabTraoDoiKT.dll
+D:\OOPAdvance\LabTraoDoiKT\LabTraoDoiKT\obj\Debug\net6.0\refint\LabTraoDoiKT.dll
+D:\OOPAdvance\LabTraoDoiKT\LabTraoDoiKT\obj\Debug\net6.0\LabTraoDoiKT.pdb
+D:\OOPAdvance\LabTraoDoiKT\LabTraoDoiKT\obj\Debug\net6.0\LabTraoDoiKT.genruntimeconfig.cache
+D:\OOPAdvance\LabTraoDoiKT\LabTraoDoiKT\obj\Debug\net6.0\ref\LabTraoDoiKT.dll
