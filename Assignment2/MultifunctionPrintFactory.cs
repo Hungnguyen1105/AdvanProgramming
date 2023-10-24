@@ -10,7 +10,7 @@ namespace C01AP.AdvanProgramming.Assignment2
     {
         public AbstractPrint CreatePrint()
         {
-            return new Multifunctionprint();
+            return new MultifunctionPrint();
         }
 
         public AbstractCopy CreateCopy()

@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace C01AP.AdvanProgramming.Assignment2
 {
-    public class Multifunctionprint : AbstractPrint
+    public class MultifunctionPrint : AbstractPrint
     {
         private string color;
-        int papertray;
+        private int papertray;
         int scanningslot;
         public string Color
         {
@@ -36,29 +36,44 @@ namespace C01AP.AdvanProgramming.Assignment2
             }
         }
 
-        public Multifunctionprint() { }
-        public Multifunctionprint(string color, int papertray, int scanningslot)
+        public MultifunctionPrint(string color, int papertray, int scanningslot)
         {
             this.color = color;
             this.papertray = papertray;
             this.scanningslot = scanningslot;
         }
 
+        public MultifunctionPrint()
+        {
+        }
+
         public override void ShowInfo()
         {
 
         }
-        public void PrintingColor(string color) { }
-        public void MultisidedPrint(string color) { }
+        public override void PrintColor() { }
 
-        public override void SidedPrint()
+        public override void SidedPrint(int selectedPaperTray)
         {
-            throw new NotImplementedException();
+
+
+
+            if (selectedPaperTray >= 1 && selectedPaperTray <= papertray)
+            {
+                int pagesPerSide = 2; // Số mặt in trên mỗi tờ giấy
+
+                // Tính toán tổng số mặt in được in cùng một lúc dựa trên số khay giấy đã chọn
+                int totalPages = papertray * pagesPerSide;
+
+                Console.WriteLine($"Máy in đa năng có {selectedPaperTray} khay giấy có thể in {totalPages} mặt giấy cùng một lúc.");
+            }
+            else
+            {
+                Console.WriteLine("Số lượng khay giấy không hợp lệ. Máy in hỗ trợ từ 1 đến 3 khay giấy.");
+            }
         }
 
-        public override void PrintColor()
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }
+

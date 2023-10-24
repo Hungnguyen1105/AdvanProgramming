@@ -8,8 +8,9 @@ namespace C01AP.AdvanProgramming.Assignment2
 {
     public abstract class AbstractPrint
     {
+
         public abstract void ShowInfo();
-        public abstract void SidedPrint();
+        public abstract void SidedPrint(int selectedPaperTray);
         public abstract void PrintColor();
     }
 }

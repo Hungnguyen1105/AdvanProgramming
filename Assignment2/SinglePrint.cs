@@ -19,15 +19,15 @@ namespace C01AP.AdvanProgramming.Assignment2
                 this.model = value;
             }
         }
-        public SinglePrint()
-        {
-        }
         public SinglePrint(string color, string model)
         {
             this.color = color;
             this.model = model;
         }
 
+        public SinglePrint()
+        {
+        }
 
         public override void ShowInfo()
         {
@@ -37,7 +37,7 @@ namespace C01AP.AdvanProgramming.Assignment2
         {
             string color = "black, white";
         }
-        public override void SidedPrint() { }
+        public override void SidedPrint(int selectedPaperTray) { }
 
     }
 }

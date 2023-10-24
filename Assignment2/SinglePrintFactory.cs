@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace C01AP.AdvanProgramming.Assignment2
 {
-    internal class SinglePrintFactory : AbstractFactoryPrint
+    public class SinglePrintFactory : AbstractFactoryPrint
     {
         public AbstractPrint CreatePrint()
         {
